@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: echo
+
+steps:
+- name: echo
+  image: bash
+  commands:
+  - echo HELLO
